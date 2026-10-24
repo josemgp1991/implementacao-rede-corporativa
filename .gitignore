@@ -1,0 +1,14 @@
+# Ignorar archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ignorar archivos temporales o backups locales
+*.bak
+*.tmp
+.DS_Store
+
+# Ignorar secretos o llaves privadas si las documentas aparte
+*.pem
+*.key
+secrets.bin
